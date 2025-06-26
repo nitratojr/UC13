@@ -123,7 +123,7 @@ Abra o navegador e acesse: `http://localhost:3000`
 ### Tabela `user`
 | Campo | Tipo | Descrição |
 |-------|------|-----------|
-| id | UUID | Chave primária |
+| id | ID | Chave primária |
 | email | VARCHAR | Email único do usuário |
 | nome | VARCHAR | Nome do usuário |
 | password | VARCHAR | Senha hasheada |
@@ -133,7 +133,7 @@ Abra o navegador e acesse: `http://localhost:3000`
 ### Tabela `cafe`
 | Campo | Tipo | Descrição |
 |-------|------|-----------|
-| id | UUID | Chave primária |
+| id | ID | Chave primária |
 | nome | VARCHAR | Nome do café |
 | origem | VARCHAR | País/região de origem |
 | tipo | VARCHAR | Grãos, Moído ou Cápsula |
