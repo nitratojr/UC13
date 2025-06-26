@@ -89,7 +89,6 @@ sistema-cafe/
 
 ### 3. Instalar Dependências
 ```bash
-cd sistema-cafe
 npm install
 ```
 
